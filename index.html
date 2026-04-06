@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutureTech 2026 | Conference Details</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #0f172a;
+            --accent: #f59e0b;
+            --light: #f8fafc;
+            --text: #334155;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: var(--text);
+            background-color: #fff;
+        }
+
+        /* Hero Section */
+        header {
+            background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), 
+                        url('https://images.unsplash.com/photo-1540575861501-7ad05823c95b?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 { font-size: 3rem; margin-bottom: 10px; }
+        .date-location { font-size: 1.2rem; color: var(--accent); font-weight: bold; }
+
+        /* Info Grid */
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: -50px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Schedule Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th { background-color: var(--light); }
+
+        /* Button */
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn:hover { background: #1d4ed8; }
+
+        footer {
+            background: var(--secondary);
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>FutureTech Global 2026</h1>
+        <p class="date-location">October 15-17, 2026 | San Francisco Convention Center</p>
+        <p>Exploring the intersection of AI, Sustainability, and Human Connection.</p>
+        <a href="#register" class="btn">Register Now</a>
+    </div>
+</header>
+
+<main class="container">
+    <section class="details-grid">
+        <div class="card">
+            <h3>Keynote Speakers</h3>
+            <ul>
+                <li><strong>Dr. Sarah Chen</strong> - Lead Scientist at AI Ethos</li>
+                <li><strong>Marcus Thorne</strong> - CEO of GreenLogic Systems</li>
+                <li><strong>Elena Rodriguez</strong> - Author of "The Digital Soul"</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Event Highlights</h3>
+            <ul>
+                <li>30+ Interactive Workshops</li>
+                <li>Networking Mixer (Day 2)</li>
+                <li>The Innovation Awards Ceremony</li>
+                <li>Exclusive Startup Pitch Deck sessions</li>
+            </ul>
+        </div>
+    </section>
+
+    <section style="margin-top: 60px;">
+        <h2>Event Schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Session</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>09:00 AM</td>
+                    <td>Opening Ceremony & Keynote</td>
+                    <td>Main Hall A</td>
+                </tr>
+                <tr>
+                    <td>11:30 AM</td>
+                    <td>The Future of Quantum Computing</td>
+                    <td>Room 302</td>
+                </tr>
+                <tr>
+                    <td>01:00 PM</td>
+                    <td>Networking Lunch</td>
+                    <td>Garden Terrace</td>
+                </tr>
+                <tr>
+                    <td>02:30 PM</td>
+                    <td>Workshop: Ethics in Generative AI</td>
+                    <td>Lab B</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="register" style="text-align: center; margin-top: 60px;">
+        <h2>Ready to Join Us?</h2>
+        <p>Early bird tickets are available until July 31st.</p>
+        <a href="#" class="btn" style="background: var(--accent); color: var(--secondary);">Secure Your Seat</a>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 FutureTech Global. All rights reserved.</p>
+    <p>Contact us: info@futuretech2026.com</p>
+</footer>
+
+</body>
+</html>
